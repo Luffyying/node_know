@@ -1,3 +1,4 @@
+//事件模块
 console.log('hello nodejs')
 /*
 	调用events模块，获取events.EventEmitter对象
