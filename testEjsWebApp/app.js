@@ -60,5 +60,4 @@ module.exports = app;
 
 
 
-//mongo 命令行shell客户端
-//mongod mongodb 数据库 进程本身 ,如果结束了该进程，则mongo命令行也不起作用了,要重新启动
+
