@@ -1,4 +1,7 @@
 var createError = require('http-errors');
+// var MongoClient = require('mongodb').MongoClient
+// var DB_CONN_STR = 'mongodb://localhost:27017/users'
+
 var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
@@ -54,3 +57,8 @@ app.listen(8000,function(){
 	console.log('Server Start')
 })
 module.exports = app;
+
+
+
+//mongo 命令行shell客户端
+//mongod mongodb 数据库 进程本身 ,如果结束了该进程，则mongo命令行也不起作用了,要重新启动
